@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for you, mi amorzito❤️</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: 'Comic Sans MS', sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            position: relative;
+            overflow: auto;
+            height: 100vh;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-top: 20px;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #2e2e2e;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 2;
+            overflow: auto;
+        }
+        
+        .imagem-romantica {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .mensagem {
+            font-size: 1.5rem;
+            color: #ff99cc;
+            margin: 20px 0;
+        }
+        
+        .cachoeira {
+            font-size: 1.2rem;
+            color: #ff99cc;
+            margin-top: 20px;
+            border: 2px solid #ff99cc;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #444;
+        }
+        
+        .moldura-imagem {
+            border: 2px dashed #ff99cc;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+            transition: background-color 0.3s;
+        }
+        
+        .moldura-imagem:hover {
+            background-color: #555;
+        }
+
+        .moldura-frase {
+            border: 2px solid #ff99cc;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #3a3a3a;
+        }
+        
+        footer {
+            margin-top: 40px;
+            font-size: 1rem;
+            color: #ff99cc;
+            position: relative;
+            padding: 10px;
+            backdrop-filter: blur(5px);
+        }
+        
+        .info {
+            font-size: 0.9rem;
+            color: #ff99cc;
+            padding: 10px;
+            margin-top: 10px;
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+        }
+        
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animar {
+            animation: appear 1s ease-out forwards;
+        }
+        
+        /* Estilos responsivos */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+            
+            .mensagem {
+                font-size: 1.2rem;
+            }
+
+            .cachoeira {
+                font-size: 1rem;
+            }
+
+            .moldura-imagem {
+                margin-top: 10px;
+            }
+            
+            .moldura-frase {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nosso Amor</h1>
+        <div class="moldura-imagem" id="dropzone1">
+            <p>Arraste e solte uma imagem aqui:</p>
+            <img src="#" alt="Imagem Adicionada" id="imagemAdicionada1" class="imagem-romantica">
+        </div>
+        <p>Você é minha inspiração, minha paixão e meu amor eterno.</p>
+        <p>Cada momento com você é uma nova página em nossa linda história de amor.</p>
+        <div class="mensagem">
+            "Você é minha razão para acordar todos os dias com um sorriso no rosto."
+        </div>
+        <div class="moldura-imagem" id="dropzone2">
+            <p>Arraste e solte uma imagem aqui:</p>
+            <img src="#" alt="Imagem Adicionada" id="imagemAdicionada2" class="imagem-romantica">
+        </div>
+        <div class="mensagem">
+            "Cada momento ao seu lado é um sonho realizado."
+        </div>
+        <div class="mensagem cachoeira animar">
+            "minha cachoeirinha de fogo, amo você com todas as forças, mesmo eu estando longe, quero que saiba que estou perto de você, quando pensar que estamos nos vendo pouco, logo logo aparecerei no seus pensamentos, sonhos, nos seus ouvidos com a minha voz ecoada pelo vento e no seu narizinho lindo por causa do cheiro de algo que transpassou por ti. Estou sempre aqui por vc, até o fim de nossas mortais vidas..."
+        </div>
+        <div class="moldura-imagem" id="dropzone3">
+            <p>Arraste e solte uma imagem aqui:</p>
+            <img src="#" alt="Imagem Adicionada" id="imagemAdicionada3" class="imagem-romantica">
+        </div>
+        <div class="moldura-frase">
+            <div class="mensagem">
+                "Você é meu amorzinho, a luz que ilumina meus dias mais sombrios."
+            </div>
+        </div>
+        <div class="moldura-frase">
+            <div class="mensagem">
+                "Princesa, cada batida do meu coração é para você."
+            </div>
+        </div>
+        <div class="moldura-frase">
+            <div class="mensagem">
+                "Meu amor, juntos somos invencíveis, nada pode nos separar."
+            </div>
+        </div>
+        <div class="moldura-frase">
+            <div class="mensagem">
+                "Minha cachoeirinha de fogo, seu amor é a chama que aquece minha alma."
+            </div>
+        </div>
+        <div class="moldura-frase">
+            <div class="mensagem">
+                "Minha cascatinha flamejante, seu sorriso é minha alegria eterna."
+            </div>
+        </div>
+        <div class="moldura-frase">
+            <div class="mensagem">
+                "Minha deusa, meu coração bate mais forte só por você."
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>fiz com todo o carinho :3</p>
+        <div class="info">🛈 caso morra de amores, não precisa consultar um médico, você está bem e lúcida.</div>
+    </footer>
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animar');
+                }
+            });
+        });
+
+        document.querySelectorAll('.mensagem, .imagem-romantica, p').forEach(el => {
+            observer.observe(el);
+        });
+
+        function setupDragAndDrop(dropzoneId, imgId) {
+            const dropzone = document.getElementById(dropzoneId);
+            const img = document.getElementById(imgId);
+
+            dropzone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropzone.style.backgroundColor = '#555';
+            });
+
+            dropzone.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                dropzone.style.backgroundColor = '';
+            });
+
+            dropzone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropzone.style.backgroundColor = '';
+                const file = e.dataTransfer.files[0];
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    img.src = event.target.result;
+                };
+                reader.readAsDataURL(file);
+            });
+        }
+
+        setupDragAndDrop('dropzone1', 'imagemAdicionada1');
+        setupDragAndDrop('dropzone2', 'imagemAdicionada2');
+        setupDragAndDrop('dropzone3', 'imagemAdicionada3');
+    </script>
+</body>
+</html>
